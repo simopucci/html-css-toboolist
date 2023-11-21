@@ -1,4 +1,4 @@
-/* General */
+/* GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +6,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: rgb(246 248 249);
+}
+
+/* HEADER   */
 .main-header {
     line-height: 50px;
+    background-color: white;
 }
 
 .main-logo {
@@ -20,5 +26,35 @@
     vertical-align: middle;
 }
 
+/* MAIN */
+.container {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
 
+.top-section {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(246 248 249)
+}
 
+.button-style {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.task-button {
+    margin-left: 40px;
+    background-color: rgb(71 173 241);
+    color: white;
+}
+
+.section-button {
+    background-color: white;
+    color: lightgray;
+    border: 2px solid lightgray;
+}
