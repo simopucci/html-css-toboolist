@@ -26,16 +26,17 @@ body {
     vertical-align: middle;
 }
 
-/* MAIN */
+/* TOP SECTION */
 .container {
     background-color: white;
     width: 70%;
-    margin: 0 auto;
-    margin-top: 40px;
+    margin: 40px auto;
+    padding-bottom: 10px;
     border-radius: 5px;
 }
 
 .top-section {
+    margin-left: 40px;
     height: 50px;
     line-height: 50px;
     border-bottom: 1px solid rgb(246 248 249)
@@ -45,10 +46,10 @@ body {
     padding: 5px 10px;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
 }
 
 .task-button {
-    margin-left: 40px;
     background-color: rgb(71 173 241);
     color: white;
 }
@@ -57,4 +58,80 @@ body {
     background-color: white;
     color: lightgray;
     border: 2px solid lightgray;
+}
+
+/* MAIN SECTION */
+.main-section {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+ul {
+    margin: 30px 0;
+}
+
+li {
+    list-style: none;
+    line-height: 20px;
+    margin: 15px 0;
+}
+
+span {
+    display: inline-block;
+}
+
+.list-title {
+    font-size: larger;
+    font-weight: 900;
+}
+
+.green-thick {
+    color: rgb(15, 222, 4);
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(15, 222, 4);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.red-cross {
+    color: red;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.badge {
+    color: white;
+    font-size: .6rem;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+
+.editorial {
+    background-color: rgb(69 171 234);
+}
+
+.q1-goals {
+    background-color: rgb(156 114 228);
+}
+
+.recruiting {
+    background-color: rgb(100 192 169);
+}
+
+.mobile {
+    background-color: rgb(242 158 51);
+}
+
+.website {
+    background-color: rgb(216 99 161);
+}
+
+.sales {
+    background-color: rgb(176 201 38);
 }
